@@ -19,7 +19,7 @@ $pip install requests
 $pip install pdfminer.six
 ```
 # Step 3
-Generative AI API Keys Websities
+Generative AI API Keys Websites
 # Cohere API Generation:
 # https://cohere.com/
 ->Click on get started
