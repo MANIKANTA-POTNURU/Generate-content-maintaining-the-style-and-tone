@@ -58,7 +58,7 @@ Additional Options: Users can also request more content if they are not satisfie
 Description: Users can input the title of a Wikipedia article, and the application summarizes the content of the article while preserving the requested style and tone.
 Additional Options: Users have the option to request more content if needed it adheres to the desired style and tone of previously written content.
 # Chat with PDF using AI
-Description: Users can upload a PDF file, and the tool converts it to text, displays it, and allows users to add more text. The AI then generates content while maintaining the style and tone.
+Description: Users can upload a PDF file, and the tool converts it to text file and downloaded into system, and allows users to add more text. The AI then generates content while maintaining the style and tone.
 # Tone Checker
 Description: Users can input text, and the tool uses the Sapling AI API to recognize and display the tone and style of the text.
 
