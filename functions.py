@@ -34,7 +34,7 @@ def convert_pdf_to_txt_pages(path):
     return texts, nbPages
 
 def generate_script(user_input):
-    co = ch.Client('WmUznWwXhxDUxvbe3mrfTc1vRDDRd76vBpYyKE4M') # This is your trial API key
+    co = ch.Client('COHERE_APIKEY') # This is your trial API key (Paste the cohere API KEY)
     response = co.generate(
         model='command',
         prompt=user_input,
@@ -69,7 +69,7 @@ def convert_pdf_to_txt_file(textarea,path):
     t=generate_script(textarea+t)
     return t, nbPages
 def summarize_script(output1):
-    co = ch.Client('WmUznWwXhxDUxvbe3mrfTc1vRDDRd76vBpYyKE4M') # This is your trial API key
+    co = ch.Client('COHERE_APIKEY')# This is your trial API key (Paste the cohere API KEY)
     response = co.summarize( 
         text=output1,
         length='auto',
