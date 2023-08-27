@@ -8,9 +8,9 @@ import requests
 from functions import convert_pdf_to_txt_file, displayPDF
 
 def main():
-    st.title("AI Content Generator")
+    st.title("Generate content maintaining the style and tone")
     st.sidebar.title("Choose an Option")
-    task = st.sidebar.radio("Select a task:", ["Using AI","From YouTube & AI", "From Wikipedia & AI","Chat with pdf using AI","Tone Checker"])
+    task = st.sidebar.radio("Select a task:", ["Using AI","From YouTube & AI", "From Wikipedia & AI","Chat with pdf using AI","Tone&Style Checker"])
     if task == "From YouTube & AI":
         st.title("Enter the youtube video Url")
         youtube_url = st.text_input("Enter YouTube video URL:")
@@ -65,7 +65,7 @@ def main():
                 totalPages = "Pages: "+str(nbPages)+" in total"
                 st.info(totalPages)
                 st.download_button("Download txt file", text_data_f)
-    elif task=="Tone Checker":
+    elif task=="Tone&Style Checker":
         st.title("Text Tone Checker")
         tetx= st.text_input("Enter something:")
         st.write(tone_reco(tetx))
@@ -74,7 +74,7 @@ def not_satisfied(output1):
     user_input1 = st.text_input("Enter some more text:")
     tone=tone_reco(output1)
     context = summarize_script(output1)
-    prompt1 =  ' Follow this '+tone+'tone for this prompt regarding' + user_input1 +'based on this '+context
+    prompt1 =  ' Follow this '+tone+'tone for this prompt regarding' + user_input1 +'based on this '+context #Prompt If the user is not satisfied or if user want some more 
     if prompt1!="":
         
         st.write(generate_script(prompt1))
@@ -82,9 +82,9 @@ def not_satisfied(output1):
 def tone_reco(tetx):
     
     response = requests.post(
-        "https://api.sapling.ai/api/v1/tone",  # sapling ai
+        "https://api.sapling.ai/api/v1/tone",  # SaplingAi
         json={
-            "key": "KV8LTPAJV40KZDOIOTD6WGIY6C92KATR",
+            "key": "SAPLING_APIKEY",#Use SaplingAi Api For Recongnizing The tone and Style For an text
             "text": tetx
         }
     )
@@ -102,8 +102,8 @@ def tone_reco(tetx):
 
 
 def generate_script(user_input):
-    #HhGWiJ4UY4gRRA4iuuecAmqgCUTnqpxPljiz74Cl
-    co = ch.Client('WmUznWwXhxDUxvbe3mrfTc1vRDDRd76vBpYyKE4M') # This is your trial API key
+    
+    co = ch.Client('COHERE_APIKEY') # This is your trial API key (Paste the cohere API KEY)
     response = co.generate(
         model='command',
         prompt=user_input,
@@ -115,7 +115,7 @@ def generate_script(user_input):
     return response.generations[0].text
 
 def summarize_script(output1):
-    co = ch.Client('WmUznWwXhxDUxvbe3mrfTc1vRDDRd76vBpYyKE4M') # This is your trial API key
+    co = ch.Client('COHERE_APIKEY') # This is your trial API key(Paste the Api Key)
     response = co.summarize( 
         text=output1,
         length='auto',
