@@ -19,6 +19,25 @@ $pip install requests
 $pip install pdfminer.six
 ```
 # Step 3
+Generative AI API Keys Websities
+# Cohere API Generation:
+# https://cohere.com/
+->Click on get started
+<br>
+->Login or register
+<br>
+->Copy The ApI Key
+<br>
+->Paste the API key in the code I mentioned in the Comments
+# Sapling AI API Generation:
+# https://sapling.ai/
+->Login or register
+<br>
+->Click on User Settings
+<br>
+->Copy the Api Key
+<br>
+->Paste the API key in the code I mentioned in the Comments
 
 # Step 4
 Basically the Project Contains 2 Files Final.py & functions.py
@@ -65,7 +84,7 @@ Description: Users can input text, and the tool uses the Sapling AI API to recog
 ![11](https://github.com/MANIKANTA-POTNURU/GenerativeAI/assets/110116617/8f3d239b-d8f9-4bb3-9781-40132cb89a3b)
 ![12](https://github.com/MANIKANTA-POTNURU/GenerativeAI/assets/110116617/d1dd89e7-768d-45e3-85bd-6e1502c10352)
 
-# Tone Checker
+# Style & Tone Checker
 ![13](https://github.com/MANIKANTA-POTNURU/GenerativeAI/assets/110116617/facc1ab7-4fb5-4e50-9fcb-1fd3a4a609da)
 
 
