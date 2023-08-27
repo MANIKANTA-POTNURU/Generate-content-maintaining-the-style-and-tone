@@ -65,27 +65,28 @@ Description: Users can input text, and the tool uses the Sapling AI API to recog
 ## Application Screenshots
 
 # Using AI
-![1](https://github.com/MANIKANTA-POTNURU/GenerativeAI/assets/110116617/84d41481-6358-4351-84ea-794d52cb1afb)
-![2](https://github.com/MANIKANTA-POTNURU/GenerativeAI/assets/110116617/d6f615bc-cdf9-44e2-994a-83e04367f023)
+![1](https://github.com/MANIKANTA-POTNURU/Generate-content-maintaining-the-style-and-tone/assets/110116617/bf9b03ed-1fe3-460f-b8ba-6c7d3e39a7b6)
+![2](https://github.com/MANIKANTA-POTNURU/Generate-content-maintaining-the-style-and-tone/assets/110116617/95e4a616-8d56-4268-9f79-6f351455e502)
 
 # From YouTube & AI
-![3](https://github.com/MANIKANTA-POTNURU/GenerativeAI/assets/110116617/1bf6cd2d-bb9e-4565-830f-d4f06f0048c6)
-![4](https://github.com/MANIKANTA-POTNURU/GenerativeAI/assets/110116617/f811a6f4-f488-4e7e-a7ff-845a454fc2e9)
+![3](https://github.com/MANIKANTA-POTNURU/Generate-content-maintaining-the-style-and-tone/assets/110116617/21449d0f-2628-4a2a-b9ba-18f44deea4b1)
+![4](https://github.com/MANIKANTA-POTNURU/Generate-content-maintaining-the-style-and-tone/assets/110116617/c5213789-8bd7-455d-9c5c-c0d9af83b40c)
 
 # From Wikipedia & AI
-![5](https://github.com/MANIKANTA-POTNURU/GenerativeAI/assets/110116617/085ae348-7572-4e82-ab23-19c591abce3d)
-![6](https://github.com/MANIKANTA-POTNURU/GenerativeAI/assets/110116617/9ca5f2e2-0449-470e-982b-72aed9127324)
+![5](https://github.com/MANIKANTA-POTNURU/Generate-content-maintaining-the-style-and-tone/assets/110116617/88fdd59c-bf4c-48d4-a3ff-0c7382b6cd34)
+![6](https://github.com/MANIKANTA-POTNURU/Generate-content-maintaining-the-style-and-tone/assets/110116617/35843d6c-fa31-43c5-9d86-b2ed86ab8515)
 
 # Chat with PDF using AI
-![7](https://github.com/MANIKANTA-POTNURU/GenerativeAI/assets/110116617/81e2529e-e3e8-400f-bd10-37a8f96f5175)
-![8](https://github.com/MANIKANTA-POTNURU/GenerativeAI/assets/110116617/520d9eee-001c-4c6f-98c9-5edf046d5419)
-![9](https://github.com/MANIKANTA-POTNURU/GenerativeAI/assets/110116617/c0bfb5b4-e224-43f3-8550-0f38ffaf2760)
-![10](https://github.com/MANIKANTA-POTNURU/GenerativeAI/assets/110116617/aaef11cf-6606-48aa-a89f-84e5a57161de)
-![11](https://github.com/MANIKANTA-POTNURU/GenerativeAI/assets/110116617/8f3d239b-d8f9-4bb3-9781-40132cb89a3b)
-![12](https://github.com/MANIKANTA-POTNURU/GenerativeAI/assets/110116617/d1dd89e7-768d-45e3-85bd-6e1502c10352)
+![7](https://github.com/MANIKANTA-POTNURU/Generate-content-maintaining-the-style-and-tone/assets/110116617/3852968d-f6e3-4616-bf33-ae2c4e310545)
+![8](https://github.com/MANIKANTA-POTNURU/Generate-content-maintaining-the-style-and-tone/assets/110116617/41213659-c8ef-47ed-9b23-25f34b2ea48c)
+![9](https://github.com/MANIKANTA-POTNURU/Generate-content-maintaining-the-style-and-tone/assets/110116617/a4af8062-bfd3-48e4-a19e-25311dbb2b1a)
+![10](https://github.com/MANIKANTA-POTNURU/Generate-content-maintaining-the-style-and-tone/assets/110116617/c6f8f56c-2934-4d9e-bfb7-8f46e9df0669)
+![11](https://github.com/MANIKANTA-POTNURU/Generate-content-maintaining-the-style-and-tone/assets/110116617/c8013f08-3b6e-4ab6-afd0-553cc2b6f889)
+![12](https://github.com/MANIKANTA-POTNURU/Generate-content-maintaining-the-style-and-tone/assets/110116617/f5dc1405-ada4-4f20-801b-df4b5f05518c)
 
 # Style & Tone Checker
-![13](https://github.com/MANIKANTA-POTNURU/GenerativeAI/assets/110116617/facc1ab7-4fb5-4e50-9fcb-1fd3a4a609da)
+![13](https://github.com/MANIKANTA-POTNURU/Generate-content-maintaining-the-style-and-tone/assets/110116617/eac6afba-273f-4b24-b5dd-b6fa186fa4c5)
+
 
 
 
