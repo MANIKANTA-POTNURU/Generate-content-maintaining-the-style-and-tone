@@ -18,6 +18,10 @@ $pip install wikipedia-api
 $pip install requests
 $pip install pdfminer.six
 ```
+## Run Command
+```bash
+$streamlit run Final.py
+```
 # Step 3
 Generative AI API Keys Websites
 # Cohere API Generation:
